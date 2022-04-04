@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle, #9c9c9c 43%, #8f8f8f 78%);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(circle, #a7a7a7 14%, #a0a0a0 64%);
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: inset 7px 0px 12px #f0f0f0;
+}
+
 html,
 body {
   padding: 0;
